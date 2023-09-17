@@ -6,16 +6,16 @@
 
 /* Theme colors */
 :root {
-	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+	--color-gray-20: #f1d6d6;
+	--color-gray-50: #f1d6d6;
+	--color-gray-90: #f1d6d6;
 
-	--background-color: #fff;
+	--background-color: #11516d;
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color-link: #21b9a5;
+	--text-color-link-active: #e9ad54;
+	--text-color-link-visited: #f1d6d6;
 
 	--syntax-tab-size: 2;
 }
@@ -31,7 +31,7 @@
 		--text-color-link-active: #6969f7;
 		--text-color-link-visited: #a6a6f8;
 
-		--background-color: #15202b;
+		--background-color: rgb(253, 246, 239);
 	}
 }
 
