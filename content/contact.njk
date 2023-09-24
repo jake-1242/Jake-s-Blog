@@ -12,23 +12,23 @@ eleventyNavigation:
 <form name="contact" action="/success" netlify>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">First Name</label>
-    <input name="first-name" type="text" class="form-control border-primary border-2 rounded-3" id="firstNameInput">
+    <input name="first-name" type="text" class="form-control border-primary border-2 rounded-3yy" id="firstNameInput" required>
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Last Name </label>
-    <input name="last-name"  type="text" class="form-control border-primary border-2 rounded-3" id="lastNameInput">
+    <input name="last-name"  type="text" class="form-control border-primary border-2 rounded-3" id="lastNameInput" required>
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input name="email" type="email" class="form-control border-primary border-2 rounded-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input name="email" type="email" class="form-control border-primary border-2 rounded-3" id="exampleInputEmail1" aria-describedby="emailHelp" required>
     <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
   </div>
   <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-  <textarea name="message" class="form-control border-primary border-2 rounded-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <textarea name="message" class="form-control border-primary border-2 rounded-3" id="exampleFormControlTextarea1" rows="3" required></textarea>
 </div>
   <div class="mb-3 form-check">
-    <input name="check-box" type="checkbox" class="form-check-input " id="exampleCheck1">
+    <input name="check-box" type="checkbox" class="form-check-input " id="exampleCheck1" required>
     <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions</label>
   </div>
   <button name="submit" type="submit" class="btn btn-primary">Submit</button>
