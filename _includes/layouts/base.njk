@@ -36,26 +36,59 @@
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
-		<header>
-			<img src="/_site/img/jb-logo.webp" width="60px">
-			<a href="/" class="home-link">{{ metadata.title }}</a>
-
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
-				</ul>
-			</nav>
+		<header class="container">
+			<div class="row">
+				<div class="col-12">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+					<img src="/_site/img/artboard 1.png" class="d-block w-100 h-100" alt="...">
+					</div>
+					<div class="carousel-item">
+					<img src="/_site/img/artboard 2.png" class="d-block w-100 h-100" alt="...">
+					</div>
+					<div class="carousel-item">
+					<img src="/_site/img/artboard 3.png" class="d-block w-100 h-100" alt="...">
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+		
+			<div class="row">
+				<div class="col-lg-5 col-12 p-2">
+					<img src="/_site/img/jb-logo.webp" width="60px">
+					<a href="/" class="home-link p-2">{{ metadata.title }}</a>
+				</div>
+				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+				<nav class="col-12">
+					<h2 class="visually-hidden">Top level navigation menu</h2>
+					<ul class="nav">
+					{%- for entry in collections.all | eleventyNavigation %}
+						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+					{%- endfor %}
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 		<main id="skip">
 			{{ content | safe }}
 		</main>
 
-		<footer></footer>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						 <a href="https://www.linkedin.com/in/jakebarry1"><img src="/_site/img/icons8-linkedin-48.png" alt="linked in icon"></a>
+                		 <a href="https://www.behance.net/jakebarry2"><img src="/_site/img/icons8-behance-48.png" alt="behance icon"></a>
+                		 <a href="https://www.instagram.com/jakeb_code/"><img src="/_site/img/instagram-logo.png" alt="instagram logo"></a>	
+					</div>
+				</div>
+
+			</div>
+
+		</footer>
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

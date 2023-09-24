@@ -268,3 +268,19 @@ a[href].header-anchor:focus,
 h2 + .header-anchor {
 	font-size: 1.5em;
 }
+
+
+
+footer{
+	position: absolute; 
+	bottom: 0;
+}
+
+#footer-css{
+    bottom: 0;
+    position: relative;
+}
+
+.carousel-item {
+	transition: 1.0s;
+}
