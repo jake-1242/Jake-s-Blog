@@ -5,6 +5,30 @@ eleventyNavigation:
   order: 4
 ---
 
-<h1>This is the contact page</h1>
+<h1>Contact</h1>
     
-<p>Here you will be able to find all of my contact info should you need to get in touch.</p>
+<p>Please leave your details and message below and I will get back to you as soon as possible</p>
+<form name="contact" netlify action="/content/success">
+<div class="mb-3">
+  <label for="firstName" class="form-label">First name</label>
+  <input type="text" class="form-control" id="firstName" placeholder="First Name">
+</div>
+<div class="mb-3">
+  <label for="surname" class="form-label">Surname</label>
+  <input type="text" class="form-control" id="surname" placeholder="Surname">
+</div>
+<div class="mb-3">
+  <label for="contactEmail" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="contactMessage" class="form-label">Message</label>
+  <textarea class="form-control" id="contactMessage" rows="3" placeholder="Enter Message here "></textarea>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    I agree to the terms and conditions
+  </label>
+</div>
+</form>
