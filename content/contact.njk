@@ -9,41 +9,19 @@ eleventyNavigation:
     
 <p>Please leave your details and message below and I will get back to you as soon as possible</p>
 
-<form name="contact" data-netlify="true">
-  <div class="container">
-    <div class="row">
-        <div class="col-12 mb-3">
-          <label for="firstName" class="form-label">First name</label>
-          <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 mb-3">
-          <label for="surname" class="form-label">Surname</label>
-          <input type="text" class="form-control" id="surname" placeholder="Surname" required>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 mb-3">
-          <label for="contactEmail" class="form-label">Email address</label> 
-          <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com" required>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 mb-3">
-          <label for="contactMessage" class="form-label">Message</label>
-          <textarea class="form-control" id="contactMessage" rows="3" placeholder="Enter Message here " required></textarea>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-9 form-check px-5">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" re>
-          <label class="form-check-label" for="flexCheckDefault">I agree to the terms and conditions</label>
-        </div>
-        <div class="col-3">
-          <button class="btn btn-primary p-2" type="submit">Submit form</button>
-        </div>
-      </div>
-    <div>
+<form name="contact" netlify>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
