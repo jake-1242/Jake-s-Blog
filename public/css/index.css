@@ -272,13 +272,13 @@ h2 + .header-anchor {
 
 
 footer{
-	position: absolute; 
+	position: relative; 
 	bottom: 0;
 }
 
 #footer-css{
     bottom: 0;
-    position: relative;
+    position: absolute;
 }
 
 .carousel-item {
