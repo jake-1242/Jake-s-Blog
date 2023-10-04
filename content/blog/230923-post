@@ -1,0 +1,24 @@
+---
+title: Intro to Javascript
+description: My first look at javascript
+date: 2023-09-23
+tags: Javascript
+---
+<h2>Intro to Javascript</h2>
+<p>
+As part of my intro into  javascript we've been doing a few tasks to get coding and trying things out ourselves.</p>
+<p>Firstly we used functions to output a sentence. Something like console.log, alert or document.write, which can give us a message. With Functions we can give javascript a set of commands to perform</p>
+<p>Next we expanded on this and created a function that could add two names together.To use this function later on I set arguments within the parenthesis so that different names could be passed through the function but we'd still get a name. 
+</P>
+
+<p>By adding a 'return' statement within the name function created , we could then store the value of the name we returned. A variable was created to store the returned output of the function.By storing the output in a variable , I can then use this variable elsewhere</p>
+
+<p>Lastly we created a function that would help us understand control flow. If the weather was a certain temperature , the function told us what to wear , like a hat or a coat etc.<br>
+The function depended on a certain order of if statements that triggered from top to bottom. Because of this , I had to think about the way we laid out the if statements. Since we included a few temperatures less than 50 , it was no good placing less than 50 at the top as it would just check this statement and then return a sentence. the lowest number had to be placed at the top , so code could be checked statement by statement and check the increasing values if neccesary.  </p>
+
+Overall I'm liking javascript as it's proving a good challenge and really makes you think about what you're coding and how you break it down so the code works the way you want it to.
+
+You can check  my codepen out <a href="https://codepen.io/Jake-Barry-coding-projects/pen/gOZjdLd?editors=1011">here</a>
+
+
+

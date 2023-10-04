@@ -1,0 +1,17 @@
+---
+title: Tip Calculator
+description: Documenting the creation of a tip calculator
+date: 2023-09-20
+tags: Javascript
+---
+<h1>Tip Calculator</h1>
+
+<p>You can see it <a href="#">Here</a></p>
+
+<p>
+I wanted the user to be able to input the bill without the tip,a tip percentage and the ability to split the bill between people.
+
+I added some basic styling with css to help add define the input and the output and just to make it a bit more visually interesting.
+
+In Javascript I got the id's of elements created in the html file , so that I could use the user's input for totals. </p>
+
